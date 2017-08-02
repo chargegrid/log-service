@@ -1,0 +1,6 @@
+{:amqp          {:url                 "amqp://guest:guest@rmq:5672"
+                 :ocpp-msg-queue-name "ocpp.msgs.log-service"}
+ :port          8084
+ :elasticsearch {:hosts    ["http://elasticsearch:9200"]
+                 :username "elastic"
+                 :password "changeme"}}
